@@ -1,0 +1,5 @@
+docker:
+    site: SITEPCOCITIES_web
+    volume: SITEPCOCITIES_web
+    network: SITEPCOCITIES_default
+    behat_path: profiles/pco_cities/tests
