@@ -31,10 +31,10 @@ base:
                --build-arg HTTPS_PROXY=$$HTTP_PROXY .
 
 drupal_install:
-	docker exec SITEPCOCITIES_web bash /var/www/docker/bin/cli drupal-first-run pco_cities
+	docker exec sitepcocities_web bash /var/www/docker/bin/cli drupal-first-run pco_cities
 
 drupal_migrate:
-	docker exec SITEPCOCITIES_web bash /var/www/docker/bin/cli drupal-migrate pco_cities
+	docker exec sitepcocities_web bash /var/www/docker/bin/cli drupal-migrate pco_cities
 
 drush_archive:
 	./docker/bin/drush archive-dump --destination="/var/www/files_private/drupal$$(date +%Y%m%d_%H%M%S).tgz" \
