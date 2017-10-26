@@ -266,7 +266,7 @@
         "drush/drush": "8.1.12",
         "drupalwxt/pco_cities": "dev-8.x-2.x",
         "drupal-composer-ext/drupal-scaffold-docker": "8.x-dev",
-        "drupal/double_field": "^3.0"
+        "drupal/follow_unfollow": "^1.0"
     },
     "autoload": {
         "classmap": [
