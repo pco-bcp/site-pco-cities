@@ -264,9 +264,8 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "8.1.12",
-        "drupalwxt/pco_cities": "dev-8.x-2.x",
-        "drupal-composer-ext/drupal-scaffold-docker": "8.x-dev",
-        "drupal/follow_unfollow": "^1.0"
+        "drupalwxt/pco_cities": "dev-new_design_updates",
+        "drupal-composer-ext/drupal-scaffold-docker": "8.x-dev"
     },
     "autoload": {
         "classmap": [
