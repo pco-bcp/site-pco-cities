@@ -9,22 +9,22 @@
         "jcalderonzumba/gastonjs": "~1.0.2",
         "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
         "mikey179/vfsStream": "~1.2",
-        "symfony/css-selector": "2.8",
+        "symfony/css-selector": "~2.8|~3.0",
         "behat/behat": "^3.0",
         "behat/mink": "~1.7",
         "behat/mink-extension": "*",
         "behat/mink-goutte-driver": "*",
         "behat/mink-selenium2-driver": "*",
         "composer/composer": "^1.4",
-        "drupal/console": "~1.0",
-        "drupal/drupal-extension": "~3.2.0",
+        "drupal/console": "1.0.1",
+        "drupal/drupal-extension": "~3.3.0",
         "squizlabs/php_codesniffer": "2.*",
         "drupal/coder": "~8.2.0",
         "phpmd/phpmd": "@stable",
         "pdepend/pdepend": "2.1.0",
         "sebastian/phpcpd": "*",
         "phpunit/phpunit": "~4.8",
-        "deployer/deployer": "^4.0",
+        "deployer/deployer": "^5.0",
         "deployer/recipes": "^4.0"
     },
     "config": {
@@ -231,6 +231,9 @@
                 "type:bower-asset",
                 "type:npm-asset"
             ],
+            "html/libraries/fontawesome": [
+                "fortawesome/font-awesome"
+            ],
             "html/modules/custom/{$name}": [
                 "drupal/wxt_library"
             ],
@@ -255,7 +258,27 @@
             "deployer/recipes": {
                 "Enter deployer/recipes patch #80 description here":
                 "https://patch-diff.githubusercontent.com/raw/deployphp/recipes/pull/80.patch"
+            },
+            "drupal/core": {
+                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
+                "https://www.drupal.org/files/issues/1356276-419--8.4.4.patch"
             }
+        },
+        "patches-ignore": {
+            "acquia/lightning": {
+              "drupal/core": {
+                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
+                "https://www.drupal.org/files/issues/1356276-408--8.4.3.patch",
+                "2880445 - Config sync should not throw a warning when not being writable":
+                "https://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch"
+              }
+            },
+            "drupalwxt/wxt": {
+                "drupal/core": {
+                  "Enter drupal/core patch #2930715 description here":
+                  "https://www.drupal.org/files/issues/2930715-2-4.patch"
+                }
+              }
         }
     },
     "require": {
@@ -263,9 +286,8 @@
         "cweagans/composer-patches": "^1.6.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal-composer/drupal-scaffold": "^2.0.0",
-        "drush/drush": "8.1.12",
+        "drush/drush": "~8.0|^9.0.0-beta7",
         "drupalwxt/pco_cities": "dev-8.x-2.x",
-        "drupal-composer-ext/drupal-scaffold-docker": "8.x-dev",
         "drupal/google_analytics": "^2.2"
     },
     "autoload": {
