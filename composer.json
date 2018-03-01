@@ -81,16 +81,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/wet-boew",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.26.tar.gz",
+                    "url"  : "https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.27.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/wet-boew-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26"
+                    "reference" : "v4.0.27"
                 }
             }
         },
@@ -98,16 +98,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-wet-boew",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-theme-wet-boew.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-wet-boew.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-theme-wet-boew"
+                    "reference" : "v4.0.27-theme-wet-boew"
                 }
             }
         },
@@ -115,16 +115,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-base",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-theme-base.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-base.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-theme-base"
+                    "reference" : "v4.0.27-theme-base"
                 }
             }
         },
@@ -132,16 +132,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-gc-intranet",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-theme-gc-intranet.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gc-intranet.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-theme-gc-intranet"
+                    "reference" : "v4.0.27-theme-gc-intranet"
                 }
             }
         },
@@ -149,16 +149,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-gcwu-fegc",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-theme-gcwu-fegc.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gcwu-fegc.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-theme-gcwu-fegc"
+                    "reference" : "v4.0.27-theme-gcwu-fegc"
                 }
             }
         },
@@ -166,16 +166,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-gcweb",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-gcweb.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-gcweb.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-gcweb"
+                    "reference" : "v4.0.27-gcweb"
                 }
             }
         },
@@ -183,16 +183,16 @@
             "type"    : "package",
             "package" : {
                 "name"    : "wet-boew/theme-ogpl",
-                "version" : "v4.0.26",
+                "version" : "v4.0.27",
                 "type"    : "drupal-library",
                 "dist"    : {
-                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.26-theme-ogpl.tar.gz",
+                    "url"  : "https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-ogpl.tar.gz",
                     "type" : "tar"
                 },
                 "source"  : {
                     "url"       : "https://github.com/wet-boew/themes-cdn.git",
                     "type"      : "git",
-                    "reference" : "v4.0.26-theme-ogpl"
+                    "reference" : "v4.0.27-theme-ogpl"
                 }
             }
         }
@@ -258,27 +258,7 @@
             "deployer/recipes": {
                 "Enter deployer/recipes patch #80 description here":
                 "https://patch-diff.githubusercontent.com/raw/deployphp/recipes/pull/80.patch"
-            },
-            "drupal/core": {
-                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/1356276-419--8.4.4.patch"
             }
-        },
-        "patches-ignore": {
-            "acquia/lightning": {
-              "drupal/core": {
-                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/1356276-408--8.4.3.patch",
-                "2880445 - Config sync should not throw a warning when not being writable":
-                "https://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch"
-              }
-            },
-            "drupalwxt/wxt": {
-                "drupal/core": {
-                  "Enter drupal/core patch #2930715 description here":
-                  "https://www.drupal.org/files/issues/2930715-2-4.patch"
-                }
-              }
         }
     },
     "require": {
@@ -286,7 +266,7 @@
         "cweagans/composer-patches": "^1.6.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal-composer/drupal-scaffold": "^2.0.0",
-        "drush/drush": "~8.0|^9.0.0-beta7",
+        "drush/drush": "^9.0",
         "drupalwxt/pco_cities": "dev-8.x-2.x",
         "drupal/google_analytics": "^2.2"
     },
