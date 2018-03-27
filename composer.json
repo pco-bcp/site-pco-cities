@@ -24,8 +24,8 @@
         "pdepend/pdepend": "2.1.0",
         "sebastian/phpcpd": "*",
         "phpunit/phpunit": "~4.8",
-        "deployer/deployer": "^5.0",
-        "deployer/recipes": "^4.0"
+        "deployer/recipes": "^6.0",
+        "deployer/deployer": "^6.1"
     },
     "config": {
         "secure-http": false,
@@ -255,10 +255,6 @@
         },
         "enable-patching": true,
         "patches": {
-            "deployer/recipes": {
-                "Enter deployer/recipes patch #80 description here":
-                "https://patch-diff.githubusercontent.com/raw/deployphp/recipes/pull/80.patch"
-            },
             "drupal/scheduled_updates": {
                 "Fix FieldUiRouteEnhancer error":
                 "https://www.drupal.org/files/issues/2018-03-12/2952011-2.patch"
