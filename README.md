@@ -37,4 +37,3 @@ List of common commands are as follows:
 [node]:                     https://nodejs.org
 [docker-scaffold-readme]:   https://github.com/drupal-composer-ext/drupal-scaffold-docker/blob/master/README.md
 [docker-readme]:            https://github.com/drupal-composer-ext/drupal-scaffold-docker/blob/master/template/docker/README.md
-
