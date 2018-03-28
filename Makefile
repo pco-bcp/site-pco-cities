@@ -1,4 +1,4 @@
-NAME := drupalwxt/site-pco-cities
+NAME := pco-bcp/site-pco-cities
 VERSION := $(or $(VERSION),$(VERSION),'latest')
 PLATFORM := $(shell uname -s)
 

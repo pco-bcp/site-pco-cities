@@ -3,7 +3,7 @@ stages:
   - deploy
 
 variables:
-  PROJECT_NAME: drupalwxt/site-pco-cities
+  PROJECT_NAME: pco-bcp/site-pco-cities
 
 image: sylus/gitlab-ci
 

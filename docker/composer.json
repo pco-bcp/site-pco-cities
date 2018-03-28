@@ -1,5 +1,5 @@
 {
-    "name": "drupalwxt/site-pco-cities",
+    "name": "pco-bcp/site-pco-cities",
     "description": "Project template for Drupal 8 sites built with the WxT distribution.",
     "type": "project",
     "license": "GPL-2.0+",

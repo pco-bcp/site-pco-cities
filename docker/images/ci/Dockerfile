@@ -1,4 +1,4 @@
-FROM drupalwxt/site-pco-cities:latest
+FROM pco-bcp/site-pco-cities:latest
 MAINTAINER William Hearn <sylus1984@gmail.com>
 
 COPY php.ini /usr/local/etc/php/php.ini

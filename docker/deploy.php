@@ -5,7 +5,7 @@ namespace Deployer;
 require 'recipe/drupal8.php';
 require 'vendor/deployer/recipes/slack.php';
 
-set('repository', 'http://github.com/drupalwxt/site-pco-cities.git');
+set('repository', 'http://github.com/pco-bcp/site-pco-cities.git');
 set('env_vars', "HTTP_PROXY=".getenv('HTTP_PROXY'));
 set('keep_releases', '15');
 

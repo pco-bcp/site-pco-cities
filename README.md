@@ -31,8 +31,8 @@ List of common commands are as follows:
 | Updating Drupal Core exclusively                | ```composer update drupal/core```                      |
 
 
-[ci]:                       https://travis-ci.org/drupalwxt/site-pco-cities
-[ci-badge]:                 https://travis-ci.org/drupalwxt/site-pco-cities.svg?branch=8.x
+[ci]:                       https://travis-ci.org/pco-bcp/site-pco-cities
+[ci-badge]:                 https://travis-ci.org/pco-bcp/site-pco-cities.svg?branch=8.x
 [composer]:                 https://getcomposer.org
 [node]:                     https://nodejs.org
 [docker-scaffold-readme]:   https://github.com/drupal-composer-ext/drupal-scaffold-docker/blob/master/README.md
