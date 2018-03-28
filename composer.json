@@ -267,7 +267,7 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "drush/drush": "^9.0",
-        "drupalwxt/pco_cities": "dev-8.x-2.x",
+        "pco-bcp/pco_cities": "dev-8.x-2.x",
         "drupal/google_analytics": "^2.2"
     },
     "autoload": {
