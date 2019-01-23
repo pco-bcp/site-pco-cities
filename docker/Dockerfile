@@ -1,4 +1,4 @@
-FROM drupalcomposer/drupal
+FROM drupalcomposer/drupal:8.5-fpm-alpine
 MAINTAINER William Hearn <sylus1984@gmail.com>
 
 # Allow Composer to be run as root.
