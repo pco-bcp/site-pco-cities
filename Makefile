@@ -31,10 +31,10 @@ base:
                --build-arg HTTPS_PROXY=$$HTTP_PROXY .
 
 drupal_install:
-	docker exec sitepcocities_cli bash /var/www/docker/bin/cli drupal-first-run pco_cities
+	docker exec sitepcocities_web bash /var/www/docker/bin/cli drupal-first-run pco_cities
 
 drupal_migrate:
-	docker exec sitepcocities_cli bash /var/www/docker/bin/cli drupal-migrate pco_cities
+	docker exec sitepcocities_web bash /var/www/docker/bin/cli drupal-migrate pco_cities
 
 drush_archive:
 	./docker/bin/drush archive-dump --destination="/var/www/files_private/drupal$$(date +%Y%m%d_%H%M%S).tgz" \
@@ -57,20 +57,17 @@ phpcs: drupal_cs
               --extensions=php,module,inc,install,test,profile,theme \
               --report=full \
               --colors \
-              --ignore=/var/www/html/profiles/wxt/modules/custom/wxt_test \
-              --ignore=/var/www/html/modules/custom/wxt_library \
               --ignore=*.css \
               --ignore=*.md \
               --ignore=/var/www/html/*/custom/*/*.info.yml \
+              /var/www/html/profiles/pco_cities/modules/custom \
               /var/www/html/modules/custom \
-              /var/www/html/themes/custom \
-              /var/www/html/profiles/pcocities/modules/custom
+              /var/www/html/themes/custom
 
 	./docker/bin/phpcs --standard=/var/www/html/core/phpcs.xml \
               --extensions=php,module,inc,install,test,profile,theme \
               --report=full \
               --colors \
-              --ignore=*.md \
               -l \
               /var/www/html/profiles/pco_cities
 
