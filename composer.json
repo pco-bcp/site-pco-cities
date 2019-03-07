@@ -114,7 +114,8 @@
         "drush/drush": "^9.0",
         "drupalwxt/wxt": "dev-8.x-2.x",
         "pco-bcp/pco_cities": "dev-8.x-2.x",
-        "drupal/google_analytics": "^2.2"
+        "drupal/google_analytics": "^2.2",
+        "drupal/field_permissions": "^1.0@RC"
     },
     "autoload": {
         "classmap": [
