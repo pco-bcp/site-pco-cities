@@ -105,7 +105,8 @@
         "enable-patching": true,
         "patches": {
             "drupal/core": {
-                "Don't re-save views that weren't changed by an entity update process": "https://www.drupal.org/files/issues/2019-05-06/3052492-13.patch"
+                "Don't re-save views that weren't changed by an entity update process": "https://www.drupal.org/files/issues/2019-05-06/3052492-13.patch",
+                "Save as anonymous if no user present": "https://www.drupal.org/files/issues/2019-05-24/3057004-2.patch"
             }
         }
     },
